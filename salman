@@ -1,0 +1,37 @@
+Git Cloning process: cloning from other repos
+1 git clone <url from different repo...>
+A directory will be created here
+cd <dir name>get into that directory
+git status (to  check status)
+touch <filename>  create a file
+git add . ( adding the file to git)
+git commit -m "created a file"
+git status
+git checkout -b <branchname> creating new branch
+git remote add origin <new repository url>
+git push -u origin master
+username
+password
+next refresh the created repository page in github account.
+Data will appear what we pushed from CLI.
+
+
+ 
+
+Pushing the data to github: 
+mkdir <dir name> create a directory
+cd <dir name>get into that directory
+git init   (to initiate the git)
+git status (to  check status)
+touch <filename>  create a file
+git add . ( adding the file to git)
+git commit -m "created a file"
+vi <filename> we can insert the data here
+git status
+git checkout -b <branchname> creating new branch
+git remote add origin <new repository url>
+git push -u origin master
+username
+password
+next refresh the created repository page in github account.
+Data will appear what we pushed from CLI.
